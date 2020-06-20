@@ -19,7 +19,9 @@ typedef struct _CONSOLE_FONT_INFOEX
     WCHAR FaceName[LF_FACESIZE];
 }CONSOLE_FONT_INFOEX, *PCONSOLE_FONT_INFOEX;
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+
+ {
 #endif
 BOOL WINAPI SetCurrentConsoleFontEx(HANDLE hConsoleOutput, BOOL bMaximumWindow, PCONSOLE_FONT_INFOEX
 lpConsoleCurrentFontEx);
