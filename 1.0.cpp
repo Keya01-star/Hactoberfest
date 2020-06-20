@@ -32,6 +32,7 @@ int board[15][15];
 void printboard()
 {
 	cout<<setw(70)<<"1.0 game";
+
 	cout<<"\n\n\n";
 	for(int i=0;i<n;i++)
 	{
